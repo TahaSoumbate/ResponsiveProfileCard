@@ -6,3 +6,52 @@
     font-family: "Poppins", sans-serif;
 
 }
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.profile-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: min(100%, 370px);
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0 , 0 , 0  , 0.1);
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #4070f4;
+    margin-bottom: 10px;
+}
+.profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -14px ;
+    border-radius: 50%;
+    border: 3px solid #d4d4d4;
+}
+.profile-card .text-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-data .name{
+    font-size: 22px ;
+    font-weight: 500;
+}
+
+.text-data .name{
+    font-size: 22px ;
+    font-weight: 500;
+}
