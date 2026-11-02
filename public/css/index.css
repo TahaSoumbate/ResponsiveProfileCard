@@ -44,6 +44,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: #333;
 }
 
 .text-data .name{
@@ -51,7 +52,8 @@ body{
     font-weight: 500;
 }
 
-.text-data .name{
-    font-size: 22px ;
-    font-weight: 500;
+.text-data .job{
+    font-size: 15px ;
+    font-weight: 400;
 }
+
